@@ -2091,6 +2091,25 @@
             }
         },
         {
+            "Key": "c3162175-718a-4b3e-bc81-fb6d37758b63",
+            "Value": {
+                "id": "b9213dbe-2a35-4334-a09b-2a1b7c256b5c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oParSolidDestructible\/oParSolidDestructible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c60ea3e5-102d-41b2-a309-b9fa4df51cab",
             "Value": {
                 "id": "e0a619bb-a4d0-4635-9478-83ec8fb61440",
@@ -2676,6 +2695,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oParticleBgGrass\/oParticleBgGrass.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee2e21a2-1145-4f86-95c9-32891d10aa85",
+            "Value": {
+                "id": "ffa31e97-ca42-4f45-ad2a-45e5026e1f7b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oBlockPerm\/oBlockPerm.yy",
                 "resourceType": "GMObject"
             }
         },

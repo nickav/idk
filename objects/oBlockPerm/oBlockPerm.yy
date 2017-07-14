@@ -1,13 +1,13 @@
 {
-    "id": "96fb6012-8dc8-4290-96de-58945cbfed83",
+    "id": "ee2e21a2-1145-4f86-95c9-32891d10aa85",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSlope1L",
+    "name": "oBlockPerm",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "c3162175-718a-4b3e-bc81-fb6d37758b63",
+    "parentObjectId": "543d44fb-da1e-49de-92c6-3cca2d9f43ad",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -21,14 +21,14 @@
     "physicsShape": 0,
     "physicsShapePoints": [
         {
-            "id": "89a76e03-7064-4fc8-96f8-c0b5a80079a5",
+            "id": "5a0bfbac-8c44-4b0c-966e-c1f5dc67ddbe",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "3157a3c6-7635-4a17-9b41-42354c8e6fdf",
+            "id": "d67e48ec-073a-4fdd-9531-94b68c83ecea",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 8,
@@ -37,6 +37,6 @@
     ],
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "2c2f1563-afdb-483c-904d-1cd0bda2eaea",
+    "spriteId": "a0005449-0eec-436b-af7c-b702709bdf9d",
     "visible": true
 }
