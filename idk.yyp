@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "0806c18a-ae7a-4bd3-b786-c477ad8acf0e",
+            "Value": {
+                "id": "81eec825-ca1a-4c3c-b0a2-0eeae934f57e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmLongJump\/rmLongJump.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "09c40361-82b8-4a4e-bb5c-af3d1120b7bd",
             "Value": {
                 "id": "17a25fc6-ec3a-47ab-ac6a-6171d7a8d5d4",

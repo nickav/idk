@@ -155,9 +155,9 @@ else if (random(100) > 85 && abs(vx) > 0.5)
     instance_create(x, y + 8, oParticlePlayer);
 
 // Swap facing during wall slide
-if (cRight && !onGround)
+if (cRight && !onGround && kRight)
     facing = -1;
-else if (cLeft && !onGround)
+else if (cLeft && !onGround && kLeft)
     facing = 1;
 
 // Action

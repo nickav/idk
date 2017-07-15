@@ -41,7 +41,7 @@ if (keyboard_check_pressed(ord("P"))) {
 if (mouse_check_button(mb_left)) {
 	var xx = floor(mouse_x / 16) * 16, yy = floor(mouse_y / 16) * 16;
 	var collision = collision_point(xx, yy, oParSolid, false, true);
-	if (!collision && collision_rectangle(xx - 16, yy - 16, xx + 16, yy + 16, oBlock, false, true)) {
+	if (!collision) {
 		instance_create(xx, yy, oBlock);
 	}
 }
