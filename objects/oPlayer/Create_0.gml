@@ -15,9 +15,11 @@ vxMax       = 5.50;
 vyMax       = 10.0;
 jumpHeight  = 6.00;
 gravNorm    = 0.50;
-gravSlide   = 0.25; 
+gravSlide   = 0.25;
 
 clingTime   = 2.0;
+kLeftBuf    = 0;
+kRightBuf   = 0;
 
 // Misc ///////////////////////////////////////////////////////////////////////
 
@@ -41,5 +43,3 @@ attacking = false;
 
 //fallTime = 0;
 //fallMax  = 28;
-
-

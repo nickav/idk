@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oBlockPerm",
     "eventList": [
-        
+        {
+            "id": "bafe974e-60df-4f9f-8e92-9828c633b41e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ee2e21a2-1145-4f86-95c9-32891d10aa85"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "543d44fb-da1e-49de-92c6-3cca2d9f43ad",

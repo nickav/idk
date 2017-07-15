@@ -14,6 +14,10 @@ kJumpRelease = keyboard_check_released(vk_space) || gamepad_button_check_release
 
 kAction      = kJump;
 
+// Buffer Left and Right
+if (kLeft) kLeftBuf = 4; else kLeftBuf = Approach(kLeftBuf, 0, 1);
+if (kRight) kRightBuf = 4; else kRightBuf = Approach(kRightBuf, 0, 1);
+
 if (instance_exists(oTouchCompatible)) {
     // Disable double-click (increases input accuracy)
     device_mouse_dbclick_enable(false);
@@ -30,12 +34,8 @@ if (instance_exists(oTouchCompatible)) {
         if (!kJumpRelease)
             kJumpRelease = device_mouse_check_button_released(i, mb_left) && device_mouse_x(i) > __view_get( e__VW.XView, 0 ) + 640 - 64 - 16 && device_mouse_x(i) < __view_get( e__VW.XView, 0 ) + 640 - 16 && device_mouse_y(i) > __view_get( e__VW.YView, 0 ) + 280 && device_mouse_y(i) < __view_get( e__VW.YView, 0 ) + 280 + 64;
 
-        if (!kAction)
-            kAction = device_mouse_check_button_pressed(i, mb_left) && device_mouse_x(i) > __view_get( e__VW.XView, 0 ) + 640 - 64 - 16 - 80 && device_mouse_x(i) < __view_get( e__VW.XView, 0 ) + 640 - 16 - 80 && device_mouse_y(i) > __view_get( e__VW.YView, 0 ) + 280 && device_mouse_y(i) < __view_get( e__VW.YView, 0 ) + 280 + 64;
+        kAction = kJump;
     }
-
-    //draw_sprite(sJumpButton, 0, view_xview[0] + 640 - 64 - 16, view_yview[0] + 280);
-    //draw_sprite(sAtkButton, 0, view_xview[0] + 640 - 64 - 96, view_yview[0] + 280);
 }
 
 // Movement ///////////////////////////////////////////////////////////////////
@@ -155,22 +155,20 @@ else if (random(100) > 85 && abs(vx) > 0.5)
     instance_create(x, y + 8, oParticlePlayer);
 
 // Swap facing during wall slide
-if (cRight && !onGround && kRight)
+if (cRight && !onGround && kRightBuf > 0)
     facing = -1;
-else if (cLeft && !onGround && kLeft)
+else if (cLeft && !onGround && kLeftBuf > 0)
     facing = 1;
 
 // Action
-if (kAction) {
-    if (!attacking) {
-        // Jab in place
-        /*if (onGround && !kRight && !kLeft)*/ {
-            image_index  = 0;
-            image_speed  = 0.33;
-            sprite_index = sPlayerJab;
+if (kAction && !attacking) {
+    // Jab in place
+    /*if (onGround && !kRight && !kLeft)*/ {
+        image_index  = 0;
+        image_speed  = 0.33;
+        sprite_index = sPlayerJab;
 
-            attacking = true;
-        }
+        attacking = true;
     }
 }
 
@@ -188,6 +186,7 @@ instance_destroy(oPlayerAtkBox);
 // Jab
 if (sprite_index == sPlayerJab && round(image_index) > 0) {
     with (instance_create(x, y, oPlayerAtkBox)) {
+		image_xscale = other.facing;
         bboxleft  = min(other.x + (5 * other.facing), other.x + (30 * other.facing));
         bboxright = max(other.x + (5 * other.facing), other.x + (30 * other.facing));
 

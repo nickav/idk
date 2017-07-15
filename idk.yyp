@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "0ef3fb9e-4a20-4eb2-aeb4-48c0ba2fc8ec",
+            "Value": {
+                "id": "3cc89601-d950-4d97-87cb-a59a850e25a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sSwordSlash\/sSwordSlash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "121173d8-a5b7-4d8e-bcd4-03af9de1161b",
             "Value": {
                 "id": "748542c7-bdf6-4b8f-92dc-022ca105ed1e",
@@ -340,6 +359,25 @@
                 ],
                 "resourcePath": "scripts\/PlaceMeetingException\/PlaceMeetingException.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1f9a1307-202a-425a-9f01-48a2956db620",
+            "Value": {
+                "id": "a6bc28b3-fc33-4d5d-9a57-cba5e1d2d655",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oSwordSlash\/oSwordSlash.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2775,6 +2813,25 @@
             }
         },
         {
+            "Key": "f12a4a5e-5d24-4584-9298-e6347a01ae6c",
+            "Value": {
+                "id": "e3f54271-456f-4e8e-a09e-8a972b1f3070",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/DrawBlock\/DrawBlock.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f1ad7e9f-ae4b-436f-85ee-1923aaa70b57",
             "Value": {
                 "id": "58f581e7-2722-4c31-850c-363f0f756894",
@@ -2979,7 +3036,8 @@
         "1e994d29-6968-4852-a143-6658900d26c6",
         "93a75656-6375-4f22-bdb3-b5e1fd8e31f0",
         "1d388b5c-1476-4b84-8a10-622ac3be4aac",
-        "8e7f783c-050e-4174-8f23-e376835c0269"
+        "8e7f783c-050e-4174-8f23-e376835c0269",
+        "f12a4a5e-5d24-4584-9298-e6347a01ae6c"
     ],
     "tutorial": ""
 }
