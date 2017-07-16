@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "032fca58-2d16-4cd8-a8c3-82e886010cbb",
+            "Value": {
+                "id": "4a3c428d-4741-4564-991e-cae82826ec13",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndCharge\/sndCharge.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "04e67a25-6f41-4fd3-b56b-085c4845bf2d",
             "Value": {
                 "id": "ef5019e5-c1ee-465f-b0f9-685b175f93cc",
@@ -55,6 +74,25 @@
                 ],
                 "resourcePath": "objects\/oFGGrass2\/oFGGrass2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "056f4ca8-722e-474e-ad10-f18bac6db678",
+            "Value": {
+                "id": "72b5b615-4b8d-4b8f-a065-6d53e4d054fb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndExplode\/sndExplode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -397,6 +435,25 @@
                 ],
                 "resourcePath": "scripts\/PlaceMeetingException\/PlaceMeetingException.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1f0426fd-735d-4c6a-87dc-f9c4b30ab4a3",
+            "Value": {
+                "id": "999d0bac-3279-4678-b603-f383efd4f4c1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndExplodeSmall\/sndExplodeSmall.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -910,6 +967,25 @@
                 ],
                 "resourcePath": "fonts\/font0\/font0.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "4cb9ff1b-da7b-4d67-9c32-df7c116a4ad8",
+            "Value": {
+                "id": "f97322e2-0d48-407a-be9c-bf090d69930d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndStep\/sndStep.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2300,6 +2376,25 @@
             }
         },
         {
+            "Key": "bac9347a-0fd5-4c16-b224-1926fba39cc7",
+            "Value": {
+                "id": "bc0e772f-2f6a-4af3-892d-1dcea1dcbceb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndJump\/sndJump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bb1945b0-db3d-4daf-ad4c-f594fdb526a6",
             "Value": {
                 "id": "fe71a6c3-394e-4c03-bfbd-68ca5921804b",
@@ -2490,6 +2585,25 @@
             }
         },
         {
+            "Key": "ca8247fd-2cf9-427d-9b78-2f32c20ba555",
+            "Value": {
+                "id": "a6e25b8e-4a23-4ccf-ad12-2c28af5a86bf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndLand\/sndLand.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc128582-5385-47c4-8599-fca4302d173f",
             "Value": {
                 "id": "35651695-8e5c-477b-8afc-331e6faec548",
@@ -2544,6 +2658,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccb43505-e5da-4c5f-80ac-2d834bdb2adc",
+            "Value": {
+                "id": "6e6c5538-0111-4c4d-ad7b-51fe5594b35e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndShot\/sndShot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2981,6 +3114,25 @@
                 ],
                 "resourcePath": "views\/e5e165b1-5ca0-4508-8bc5-fb98bd12cb14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e78798a0-3c20-4486-8f48-2f16e60dacea",
+            "Value": {
+                "id": "d1b3506f-af64-484a-a691-1d0fda371846",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndExplodeLarge\/sndExplodeLarge.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -24,4 +24,5 @@ for (var i = 1; i < array_length_1d(explosions); i++) {
 	instance_destroy(node, false);
 }
 
+audio_play_sound(sndExplodeLarge, 0, 0);
 event_inherited();

@@ -19,8 +19,7 @@ gravNorm    = 0.50;
 gravSlide   = 0.25;
 
 clingTime   = 2.0;
-kLeftBuf    = 0;
-kRightBuf   = 0;
+stepCounter = 0;
 
 // Misc ///////////////////////////////////////////////////////////////////////
 

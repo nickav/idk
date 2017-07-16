@@ -15,8 +15,11 @@ kJumpRelease = keyboard_check_released(vk_space) || gamepad_button_check_release
 kAction      = kJump;
 
 // Buffer Left and Right
-if (kLeft) kLeftBuf = 4; else kLeftBuf = Approach(kLeftBuf, 0, 1);
-if (kRight) kRightBuf = 4; else kRightBuf = Approach(kRightBuf, 0, 1);
+if (kLeft || kRight) {
+	stepCounter += 1;
+} else {
+	stepCounter = 0;
+}
 
 if (instance_exists(oTouchCompatible)) {
     // Disable double-click (increases input accuracy)
@@ -105,6 +108,7 @@ if (kJump && cLeft && !onGround) {
     yscale = 1.33;
     xscale = 0.67;
 
+	audio_play_sound(sndJump, 0, 0);
     if (kLeft) {
         vy = -jumpHeight * 1.2;
         vx =  jumpHeight * .66;
@@ -118,6 +122,7 @@ if (kJump && cRight && !onGround) {
     yscale = 1.33;
     xscale = 0.67;
 
+	audio_play_sound(sndJump, 0, 0);
     if (kRight) {
         vy = -jumpHeight * 1.2;
         vx = -jumpHeight * .66;
@@ -136,6 +141,7 @@ if (kJump) {
                 ++y;
         } else {
             vy = -jumpHeight;
+			audio_play_sound(sndJump, 0, 0);
 
             yscale = 1.33;
             xscale = 0.67;
@@ -155,9 +161,9 @@ else if (random(100) > 85 && abs(vx) > 0.5)
     instance_create(x, y + 8, oParticlePlayer);
 
 // Swap facing during wall slide
-if (cRight && !onGround && kRightBuf > 0)
+if (cRight && !onGround && kRight)
     facing = -1;
-else if (cLeft && !onGround && kLeftBuf > 0)
+else if (cLeft && !onGround && kLeft)
     facing = 1;
 
 // Action

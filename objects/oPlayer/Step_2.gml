@@ -61,3 +61,7 @@ repeat(abs(vx)) {
         vx = 0;
 }
 
+// Play step sound
+if (stepCounter mod 8 == 1 && abs(vx) > 1 && onGround) {
+	audio_play_sound(sndStep, 0, 0);
+}
