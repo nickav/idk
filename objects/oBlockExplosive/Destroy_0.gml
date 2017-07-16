@@ -23,3 +23,5 @@ for (var i = 1; i < array_length_1d(explosions); i++) {
 	instance_create(node.x + 8, node.y + 8, oCratePoof);
 	instance_destroy(node, false);
 }
+
+event_inherited();

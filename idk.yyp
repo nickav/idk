@@ -894,6 +894,25 @@
             }
         },
         {
+            "Key": "4ca11dfc-0b13-42bf-b5aa-86c5f751f52e",
+            "Value": {
+                "id": "d8375964-cbb5-4b85-a61a-80c596be0504",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/font0\/font0.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4d78d8c8-4b9c-4234-916b-3df1f1593bb3",
             "Value": {
                 "id": "da1dc526-fc99-47e2-b123-d38682536157",
@@ -1003,7 +1022,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rmTurretd\/rmTurretd.yy",
+                "resourcePath": "rooms\/rmTurretHell\/rmTurretHell.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3019,6 +3038,25 @@
                 ],
                 "resourcePath": "views\/ea44c5d5-97d3-4413-bd4a-b47d20b09acb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec592f74-ec1d-4e63-8fdc-57b8338c4c01",
+            "Value": {
+                "id": "e5b7dd3c-0789-4154-9532-b8b505349b6e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/font1\/font1.yy",
+                "resourceType": "GMFont"
             }
         },
         {
