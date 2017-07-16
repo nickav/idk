@@ -3,7 +3,6 @@ shootCount = 0;
 burst = 3;
 shootDelay = room_speed * 1.5;
 canShoot = false;
-target = oPlayer;
 bullet = oBulletDestructible;
 charge = false;
 

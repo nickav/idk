@@ -1,2 +1,4 @@
-instance_destroy(other);
-instance_destroy(self);
+if (parent != other) {
+	instance_destroy(other);
+	instance_destroy(self);
+}

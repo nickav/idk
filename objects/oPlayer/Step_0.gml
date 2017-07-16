@@ -201,6 +201,20 @@ if (sprite_index == sPlayerJab && round(image_index) > 0) {
     }
 }
 
+// Shoot
+if (false && sprite_index == sPlayerJab && round(image_index) == 1) {
+	with (instance_create(x, y, oBullet)) {
+		direction = other.facing > 0 ? 0 : 180;
+		speed += abs(other.vx);
+		parent = other;
+	}
+}
+
+// Teleport
+if (kDown && instance_place(x, y + 1, oTeleportPad)) {
+	if (!instance_exists(oTeleport)) instance_create(x, y, oTeleport);
+}
+
 /* */
 // Die
 if (y > room_height) {

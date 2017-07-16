@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "0c26185f-e75c-4f13-9bd1-e995f5177b7f",
+            "Value": {
+                "id": "87bd84cb-227e-4da7-9b9e-802ad0478001",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oTeleportPad\/oTeleportPad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0de79296-feec-4242-a7ab-059420aacee4",
             "Value": {
                 "id": "75a501e8-07a4-46cb-9d45-4a189d49e679",
@@ -799,6 +818,25 @@
             }
         },
         {
+            "Key": "35be7c3e-4dfa-4cf5-a39d-dac76ca827a8",
+            "Value": {
+                "id": "cbb5929a-fa77-48dc-9030-f98adedf03ac",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sTeleport\/sTeleport.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b19b15a-bb8a-4ce3-a4aa-8e540a52d7b0",
             "Value": {
                 "id": "c8b352f7-7c41-43a3-9ab7-f902e63bcc73",
@@ -1309,6 +1347,25 @@
                 ],
                 "resourcePath": "sprites\/sPlayerJab\/sPlayerJab.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6210ef93-f5b8-4d60-9180-b5f96f987ad4",
+            "Value": {
+                "id": "c6b303e0-05f5-49a6-86e5-13de43ca54fe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmStart\/rmStart.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2050,6 +2107,25 @@
                 ],
                 "resourcePath": "sprites\/sFgGrass2B\/sFgGrass2B.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a452e162-084c-4d76-ad9e-3e813c248d4e",
+            "Value": {
+                "id": "a52606d8-1e6a-426c-88f7-5b8f6e37d20f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oTeleport\/oTeleport.yy",
+                "resourceType": "GMObject"
             }
         },
         {
