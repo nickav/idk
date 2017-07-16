@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "0781e629-6653-48a6-9077-b8e1d169ce58",
+            "Value": {
+                "id": "5082f977-3ad9-48df-aa30-2739d7489836",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sTeleportPad\/sTeleportPad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0806c18a-ae7a-4bd3-b786-c477ad8acf0e",
             "Value": {
                 "id": "81eec825-ca1a-4c3c-b0a2-0eeae934f57e",
@@ -2619,6 +2638,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oParSolidDestructible\/oParSolidDestructible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c36f2d1a-57f0-435c-adb2-29baf1b15547",
+            "Value": {
+                "id": "557aa798-ae0f-44c7-8c70-d7841c4b1202",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oStars\/oStars.yy",
                 "resourceType": "GMObject"
             }
         },

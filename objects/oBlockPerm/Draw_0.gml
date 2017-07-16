@@ -1,1 +1,1 @@
-DrawBlock(oParSolid, 16, 16, c_black, c_white);
+DrawBlock(oParSolid, x, y, 16, 16, c_black, c_white);

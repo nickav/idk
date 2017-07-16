@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oTeleportPad",
     "eventList": [
-        {
-            "id": "74efd087-341f-4f92-8bd3-14ac54fc16d2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "0c26185f-e75c-4f13-9bd1-e995f5177b7f"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "543d44fb-da1e-49de-92c6-3cca2d9f43ad",
@@ -46,6 +37,6 @@
     ],
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "982eccaf-cf5d-456e-b9b3-0287bdf550ad",
+    "spriteId": "0781e629-6653-48a6-9077-b8e1d169ce58",
     "visible": true
 }
