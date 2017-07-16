@@ -19,9 +19,18 @@ with (oParCrate) {
 }
 
 
+with (oBulletDestructible) {
+    if (!(bbox_left > other.bboxright + 10 || bbox_right < other.bboxleft - 10 || bbox_top > other.bboxbottom + 10 || bbox_bottom < other.bboxtop - 10)) {
+        instance_destroy();
+		
+		with (oPlayer) {
+			vy = -jumpHeight;
+		}
+    }
+}
+
 with (oParSolidDestructible) {
 	if (!(bbox_left > other.bboxright || bbox_right < other.bboxleft || bbox_top > other.bboxbottom || bbox_bottom < other.bboxtop)) {
 		instance_destroy();
-		instance_create(x + sprite_width / 2, y + sprite_height / 2, oCratePoof);
     }
 }

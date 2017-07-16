@@ -144,7 +144,7 @@ if (kJump) {
 // Variable jumping
 } else if (kJumpRelease) {
     if (vy < 0)
-        vy *= 0.25;
+        vy *= jumpDamping;
 }
 
 // Jump state

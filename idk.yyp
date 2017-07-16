@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "0915201d-e6e3-4b66-bf80-2b77375d7db3",
+            "Value": {
+                "id": "578d6e8e-17f9-47b6-9e9c-1c451d60cf7e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oCamera\/oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09c40361-82b8-4a4e-bb5c-af3d1120b7bd",
             "Value": {
                 "id": "17a25fc6-ec3a-47ab-ac6a-6171d7a8d5d4",
@@ -264,6 +283,25 @@
                 ],
                 "resourcePath": "sprites\/sCrateSmall\/sCrateSmall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18e2e59c-83e6-4770-b2fd-6120b6eaa32d",
+            "Value": {
+                "id": "4622c033-741a-4786-b851-35cf54030ae7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oTurret\/oTurret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -605,6 +643,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sSlope1L\/sSlope1L.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c5318d8-249f-49b8-a069-924e6962b7ec",
+            "Value": {
+                "id": "29fcf92e-b443-4304-b0d2-914ffc0ac4de",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sBullet\/sBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1198,6 +1255,25 @@
             }
         },
         {
+            "Key": "7345a8a8-6173-4aca-ae20-fe1c1341fd3f",
+            "Value": {
+                "id": "18906bff-d7b6-4bfd-a8dc-4ee73aa80a6a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oBulletDestructible\/oBulletDestructible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79a62afc-798f-46a9-ae65-7cfd09f6173c",
             "Value": {
                 "id": "719b21d8-c604-4fe5-8c0b-bec7d88c143a",
@@ -1214,6 +1290,25 @@
                 ],
                 "resourcePath": "views\/79a62afc-798f-46a9-ae65-7cfd09f6173c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79f258d0-b499-48ee-8d74-8d6cab8200b7",
+            "Value": {
+                "id": "fd43979d-8e13-4efb-aa83-aea2224ff8ee",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmTurret\/rmTurret.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2072,6 +2167,25 @@
             }
         },
         {
+            "Key": "bd9e36ac-0567-421a-bb90-a512d5864f5c",
+            "Value": {
+                "id": "c03589ce-6522-4ff8-adcc-c6ce37c5f25d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sBulletBlack\/sBulletBlack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be962a09-1ad9-42e5-9bd2-f39c25422869",
             "Value": {
                 "id": "d84c0c11-5e62-498c-9ac2-ca5ee2f1701f",
@@ -2124,7 +2238,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sLava\/sLava.yy",
+                "resourcePath": "sprites\/sColors\/sColors.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2392,6 +2506,25 @@
                 ],
                 "resourcePath": "rooms\/rmIntro1\/rmIntro1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d58a7b47-b8e3-4657-8774-356f3e000021",
+            "Value": {
+                "id": "c270de47-0c43-40ee-86f4-9c5fd4017d7b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oBullet\/oBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
