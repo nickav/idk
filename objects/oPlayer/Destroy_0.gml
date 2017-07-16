@@ -1,1 +1,1 @@
-instance_create(0, 0, oFxRoomRestart);
+instance_create(x, y, oCratePoof);

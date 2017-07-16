@@ -20,6 +20,7 @@ gravSlide   = 0.25;
 
 clingTime   = 2.0;
 stepCounter = 0;
+blink       = 30;
 
 // Misc ///////////////////////////////////////////////////////////////////////
 
@@ -43,3 +44,7 @@ attacking = false;
 
 //fallTime = 0;
 //fallMax  = 28;
+
+// Teleport in
+instance_create(x, y, oCratePoof);
+instance_create(oPlayer.x, oPlayer.y, oTeleport);

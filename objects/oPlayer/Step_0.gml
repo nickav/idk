@@ -212,7 +212,18 @@ if (false && sprite_index == sPlayerJab && round(image_index) == 1) {
 
 // Teleport
 if (kDown && instance_place(x, y + 1, oTeleportPad)) {
-	if (!instance_exists(oTeleport)) instance_create(x, y, oTeleport);
+	if (!instance_exists(oTeleport)) {
+		if (blink < 20) {
+			blink += 1;
+			image_alpha = floor(blink / 1) mod 2 == 0;
+		} else {
+			image_alpha = 0;
+			instance_create(x, y, oTeleportTrigger);
+		}
+	}
+} else if (blink > 0) {
+	blink -= 1;
+	image_alpha = floor(blink / 2) mod 2 == 0;
 }
 
 /* */

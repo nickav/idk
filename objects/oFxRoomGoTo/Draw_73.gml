@@ -9,6 +9,8 @@ if (image_alpha >= 1) {
     
     if (target == -1)
         room_goto_next();
+	else if (target == -2)
+		room_goto_previous();
     else
         room_goto(target);
 }

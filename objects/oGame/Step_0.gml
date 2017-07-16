@@ -45,3 +45,9 @@ if (mouse_check_button(mb_left)) {
 		instance_create(xx, yy, oBlock);
 	}
 }
+
+
+if (!instance_exists(oPlayer) && !restart) {
+	restart = true;
+	alarm[0] = 10;
+}

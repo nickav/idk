@@ -1350,6 +1350,25 @@
             }
         },
         {
+            "Key": "5ed37030-7366-4d11-afa8-bc9b86db8a72",
+            "Value": {
+                "id": "51701310-06ab-4d96-a2ab-91d3a09ed760",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndTeleport\/sndTeleport.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "611ee410-ad92-4d0a-9e44-89dbc960cf40",
             "Value": {
                 "id": "aa149e48-b4cc-4058-8095-0f4cb9fac4e0",
@@ -1442,6 +1461,25 @@
                 ],
                 "resourcePath": "notes\/notes.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "688eb6d7-42c9-4066-8fd1-bff08707b4d6",
+            "Value": {
+                "id": "9ae3f244-e073-41c9-84a8-b8beeccd841f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oTeleportTrigger\/oTeleportTrigger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2145,6 +2183,25 @@
                 ],
                 "resourcePath": "objects\/oTeleport\/oTeleport.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4b76a32-ffb2-4447-a9b7-c00299d4af89",
+            "Value": {
+                "id": "194496d3-edaa-445d-a697-cbe1dbe68c98",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmStartLearnBreak\/rmStartLearnBreak.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

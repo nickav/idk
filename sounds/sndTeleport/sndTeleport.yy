@@ -1,8 +1,8 @@
 {
-    "id": "ca8247fd-2cf9-427d-9b78-2f32c20ba555",
+    "id": "5ed37030-7366-4d11-afa8-bc9b86db8a72",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sndLand",
+    "name": "sndTeleport",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
