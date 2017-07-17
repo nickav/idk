@@ -5,4 +5,4 @@ window_center();
 restart = false;
 
 // mute
-//audio_master_gain(0);
+audio_master_gain(0.5);
