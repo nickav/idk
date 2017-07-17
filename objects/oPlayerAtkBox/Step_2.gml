@@ -34,3 +34,9 @@ with (oParSolidDestructible) {
 		instance_destroy();
     }
 }
+
+with (oEnemy) {
+	if (!(bbox_left > other.bboxright || bbox_right < other.bboxleft || bbox_top > other.bboxbottom || bbox_bottom < other.bboxtop)) {
+		hp -= 1;
+    }
+}
