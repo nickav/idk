@@ -40,10 +40,11 @@ yscale = 1;
 
 ///////////////////////////////////////////////////////////////////////////////
 
-attacking = false;
+attacking = false; // computed
+attackTime = 6;
+attackIndex = attackTime;
 
-//fallTime = 0;
-//fallMax  = 28;
+
 
 // Teleport in
 instance_create(x, y, oCratePoof);

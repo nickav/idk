@@ -7,5 +7,8 @@ hasGun = false;
 prevTarget = 0;
 debug = !code_is_compiled();
 
+// Debug vars
+log = 0;
+
 // mute
 audio_master_gain(0.15);

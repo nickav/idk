@@ -224,7 +224,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/oTeleportPad\/oTeleportPad.yy",
+                "resourcePath": "objects\/oTeleportPadNext\/oTeleportPadNext.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -834,6 +834,25 @@
                 ],
                 "resourcePath": "sprites\/sTeleport\/sTeleport.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39cf35c1-c8b9-434f-90f5-77b5916c2db8",
+            "Value": {
+                "id": "0338c696-38a7-498a-800c-fc1456208678",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oParTeleportPad\/oParTeleportPad.yy",
+                "resourceType": "GMObject"
             }
         },
         {

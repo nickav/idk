@@ -13,3 +13,4 @@ if (onGround && !onGroundPrev) {
     yscale = 0.67;
 }
 
+attacking = attackIndex < attackTime;

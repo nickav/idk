@@ -14,7 +14,7 @@ kJumpRelease = keyboard_check_released(vk_space) || gamepad_button_check_release
 
 kAction      = kJump;
 
-// Buffer Left and Right
+// Step counter for walking sound
 if (kLeft || kRight) {
 	stepCounter += 1;
 } else {
@@ -167,15 +167,10 @@ else if (cLeft && !onGround && kLeft)
     facing = 1;
 
 // Action
+attackIndex = Approach(attackIndex, attackTime, 1);
 if (kAction && !attacking) {
     // Jab in place
-    /*if (onGround && !kRight && !kLeft)*/ {
-        image_index  = 0;
-        image_speed  = 0.33;
-        sprite_index = sPlayerJab;
-
-        attacking = true;
-    }
+	attackIndex = 0;
 }
 
 /* */
@@ -190,7 +185,8 @@ yscale = Approach(yscale, 1, 0.05);
 instance_destroy(oPlayerAtkBox);
 
 // Jab
-if (sprite_index == sPlayerJab && round(image_index) > 0) {
+if (attacking && attackIndex > 1) {
+	// Create hit box
     with (instance_create(x, y, oPlayerAtkBox)) {
 		image_xscale = other.facing;
         bboxleft  = min(other.x + (5 * other.facing), other.x + (30 * other.facing));
@@ -202,7 +198,7 @@ if (sprite_index == sPlayerJab && round(image_index) > 0) {
 }
 
 // Shoot
-if (oGame.hasGun && sprite_index == sPlayerJab && round(image_index) == 1) {
+if (oGame.hasGun && attacking && attackIndex mod 2 == 0) {
 	with (instance_create(x, y, oBullet)) {
 		direction = other.facing > 0 ? 0 : 180;
 		speed += abs(other.vx);
@@ -212,17 +208,18 @@ if (oGame.hasGun && sprite_index == sPlayerJab && round(image_index) == 1) {
 }
 
 // Teleport
-if (kDown && (instance_place(x, y + 1, oTeleportPad) ||  instance_place(x, y + 1, oTeleportPadPrev))) {
-	if (!instance_exists(oTeleport)) {
+if (kDown && instance_place(x, y + 1, oParTeleportPad)) {
+	if (!instance_exists(oTeleportTrigger)) {
 		if (blink < 20) {
-			blink += 1;
-			image_alpha = floor(blink / 2) mod 2 == 0;
+			blink += 2; // double because of minus 1 below
 		} else {
-			image_alpha = 0;
 			instance_create(x, y, oTeleportTrigger);
 		}
 	}
-} else if (blink > 0) {
+}
+
+// Blink
+if (blink > 0) {
 	blink -= 1;
 	image_alpha = floor(blink / 2) mod 2 == 0;
 }
