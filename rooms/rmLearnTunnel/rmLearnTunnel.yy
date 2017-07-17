@@ -6620,7 +6620,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_1C3CCF46",
                     "x": 64,
-                    "y": 64,
+                    "y": 32,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295

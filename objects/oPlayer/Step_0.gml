@@ -228,5 +228,6 @@ if (blink > 0) {
 /* */
 // Die
 if (y > room_height) {
+	dead = true;
 	instance_destroy();
 }

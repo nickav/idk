@@ -1,2 +1,0 @@
-canShoot = true;
-charge = false;

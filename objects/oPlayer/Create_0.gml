@@ -22,6 +22,7 @@ gravSlide   = 0.25;
 clingTime   = 2.0;
 stepCounter = 0;
 blink       = 30;
+dead        = false;
 
 // Misc ///////////////////////////////////////////////////////////////////////
 

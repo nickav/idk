@@ -799,6 +799,25 @@
             }
         },
         {
+            "Key": "31ae3475-5f74-44e9-b88c-3b1f0883cc21",
+            "Value": {
+                "id": "aab58dcd-1569-4ccc-974b-1bb6c8583908",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oFxCameraShake\/oFxCameraShake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3470ecc8-abc0-4c3a-9452-a2404c929f5f",
             "Value": {
                 "id": "153eae7c-44ea-4576-bdd5-eef0cfa13830",
@@ -1270,25 +1289,6 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oEnemy\/oEnemy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "576533ab-eb7a-4764-8def-cadfc29d485c",
-            "Value": {
-                "id": "bbc592b0-9949-427b-bf5d-bae9672f990e",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/oSlope2L\/oSlope2L.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2642,25 +2642,6 @@
             }
         },
         {
-            "Key": "bb1945b0-db3d-4daf-ad4c-f594fdb526a6",
-            "Value": {
-                "id": "fe71a6c3-394e-4c03-bfbd-68ca5921804b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/oSlope2R\/oSlope2R.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bd9e36ac-0567-421a-bb90-a512d5864f5c",
             "Value": {
                 "id": "c03589ce-6522-4ff8-adcc-c6ce37c5f25d",
@@ -3019,6 +3000,25 @@
                 ],
                 "resourcePath": "rooms\/rmSpaceship\/rmSpaceship.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ce57c140-de5e-4f4d-a746-dcab72480a5c",
+            "Value": {
+                "id": "efe23016-14fb-4800-bf07-2a291b09a961",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndTeleportIn\/sndTeleportIn.yy",
+                "resourceType": "GMSound"
             }
         },
         {
