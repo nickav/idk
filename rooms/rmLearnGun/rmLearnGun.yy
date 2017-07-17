@@ -84,36 +84,9 @@
         "d276647b-d434-462e-8e4c-f9a9b8de70f8",
         "fab5d49c-257c-4393-b635-db18558835e3",
         "06742fcc-6e3a-48b0-ae3f-b9544d2bb5d8",
-        "a52ba4cc-529c-442e-93fb-3f3c14e19edb",
-        "1a0eb22a-40aa-4597-9860-08c6a066414e"
+        "a52ba4cc-529c-442e-93fb-3f3c14e19edb"
     ],
     "layers": [
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "id": "d168429b-5c5d-4d7f-bd65-9107cc59978f",
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "depth": -100,
-            "grid_x": 16,
-            "grid_y": 16,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "layers": [
-                
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "name": "Controllers",
-            "userdefined_depth": true,
-            "visible": true,
-            "instances": [
-                
-            ]
-        },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "9265fb2a-4487-4fbc-be15-88db009b3ded",
@@ -1909,30 +1882,6 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5FFEF1AD",
                     "objId": "28a2a72a-8e26-437e-a424-66f359814729",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "1a0eb22a-40aa-4597-9860-08c6a066414e",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_777D7209",
-                    "x": 0,
-                    "y": 0,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_777D7209",
-                    "objId": "5432b2a3-fa48-42b1-b350-38fb680202b7",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1

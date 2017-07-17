@@ -1,1 +1,1 @@
-// NO-OP
+instance_destroy();
