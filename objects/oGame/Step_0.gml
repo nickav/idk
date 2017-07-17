@@ -13,10 +13,11 @@ if (kExit)
     game_end();
 
 // Core logic
-if (!instance_exists(oPlayer) && !restart) {
+if (!instance_exists(oPlayer) && !instance_exists(oPlayerSpawner) && !restart) {
 	restart = true;
 	alarm[0] = 10;
 }
+
 
 /* */
 // Debug mode //////////////////////////////////////////

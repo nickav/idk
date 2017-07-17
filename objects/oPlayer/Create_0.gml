@@ -11,7 +11,8 @@ groundAccel = 1.00;
 groundFric  = 2.00;
 airAccel    = 0.75;
 airFric     = 0.01;
-vxMax       = 5.50;
+vxMax       = 5.50; // walk speed
+maxVxMax    = 20;  // for real
 vyMax       = 10.0;
 jumpHeight  = 6.00;
 jumpDamping = 0.25;
@@ -44,8 +45,4 @@ attacking = false; // computed
 attackTime = 6;
 attackIndex = attackTime;
 
-
-
-// Teleport in
-instance_create(x, y, oCratePoof);
-instance_create(oPlayer.x, oPlayer.y, oTeleport);
+alarm[1] = 1;

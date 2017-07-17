@@ -1426,6 +1426,25 @@
             }
         },
         {
+            "Key": "64917c63-0763-4975-af72-d8a741c69fe4",
+            "Value": {
+                "id": "530f18a2-13a9-49d6-b69e-6320bcd01d93",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oPlayerSpawner\/oPlayerSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "671385e8-b77b-4324-b9c7-ad98ba1977c0",
             "Value": {
                 "id": "9584100f-9893-41e6-9a52-6da62d59e49a",
@@ -3475,25 +3494,6 @@
                 ],
                 "resourcePath": "views\/ea44c5d5-97d3-4413-bd4a-b47d20b09acb.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ec592f74-ec1d-4e63-8fdc-57b8338c4c01",
-            "Value": {
-                "id": "e5b7dd3c-0789-4154-9532-b8b505349b6e",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "fonts\/font1\/font1.yy",
-                "resourceType": "GMFont"
             }
         },
         {

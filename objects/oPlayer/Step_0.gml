@@ -207,12 +207,13 @@ if (oGame.hasGun && attacking && attackIndex mod 2 == 0) {
 	vx -= facing * 3;
 }
 
+vx = clamp(vx, -maxVxMax, maxVxMax);
+
 // Teleport
 if (kDown && instance_place(x, y + 1, oParTeleportPad)) {
 	if (!instance_exists(oTeleportTrigger)) {
-		if (blink < 20) {
-			blink += 2; // double because of minus 1 below
-		} else {
+		blink += 2; // double because of minus 1 below
+		if (blink > 20) {
 			instance_create(x, y, oTeleportTrigger);
 		}
 	}
