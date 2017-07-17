@@ -1,13 +1,17 @@
 window_set_size(room_width * 2, room_height * 2);
 window_center();
 
+// gameplay
+deaths = 0;
+startTime = current_time;
+hasGun = false;
+
 // restart logic
 restart = false;
-hasGun = false;
 prevTarget = 0;
-debug = !code_is_compiled();
 
 // Debug vars
+debug = !code_is_compiled();
 log = 0;
 
 // mute

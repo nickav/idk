@@ -10,6 +10,10 @@ if (debug) {
 	if (log) draw_text(16, 32, string(log));
 }
 
+draw_set_halign(fa_center);
+draw_text(room_width / 2, 16, string(deaths));
+draw_set_halign(fa_left);
+
 if (instance_exists(oTouchCompatible)) {
     draw_sprite(sLeftArrow, 0, __view_get( e__VW.XView, 0 ) + 16, __view_get( e__VW.YView, 0 ) + 280);
     draw_sprite(sRightArrow, 0, __view_get( e__VW.XView, 0 ) + 96, __view_get( e__VW.YView, 0 ) + 280);
