@@ -1654,6 +1654,25 @@
             }
         },
         {
+            "Key": "7e2eb98b-9d2b-4ee1-a057-039f753c30af",
+            "Value": {
+                "id": "d0b529f8-6e6d-4efe-b06f-5e723e492f8d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmEnd\/rmEnd.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7f1e0793-6f59-4f13-a514-2823331cc949",
             "Value": {
                 "id": "ed93f292-1a07-441d-acfd-bca5d1f0446b",
@@ -2012,6 +2031,25 @@
                 ],
                 "resourcePath": "objects\/oSlope1L\/oSlope1L.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "979044c4-2fc4-41c5-a83d-eb249e8ca577",
+            "Value": {
+                "id": "9c55691a-fe90-4b21-b943-9a377f336195",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmBrackets\/rmBrackets.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2943,6 +2981,25 @@
                 ],
                 "resourcePath": "objects\/oCrateSmall\/oCrateSmall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cd19a675-35d4-46ed-aff3-8826907a9689",
+            "Value": {
+                "id": "3d0897f1-d38c-4e2a-86c1-2ee64e595636",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmSpaceship\/rmSpaceship.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

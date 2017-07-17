@@ -2,7 +2,7 @@ restart = false;
 
 // TODO: hacks
 //if (prevRoom > room || hasGun) {
-if (prevTarget == -2) {
+if (prevTarget == -2 && instance_exists(oTeleportPad)) {
 	oPlayer.x = oTeleportPad.x + oTeleportPad.sprite_width / 2;
 	oPlayer.y = oTeleportPad.y - oPlayer.sprite_height / 2;
 	if (instance_exists(oTeleport)) {

@@ -7,9 +7,11 @@ if (image_alpha >= 1) {
     //with (oPauseSuccess2)
     //    instance_destroy();
     
-    if (target == -1)
-        room_goto_next();
-	else if (target == -2)
+    if (target == -1) {
+		if (room_next(room))
+			room_goto_next();
+		else room_goto(0);
+	} else if (target == -2)
 		room_goto_previous();
     else
         room_goto(target);

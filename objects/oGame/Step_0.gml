@@ -1,10 +1,13 @@
 // Input variables for debug room traversal
-var kRestart, kExit, kPrev, kNext;
+var kRestart, kExit, kPrev, kNext, kGun;
+
+var debug = true;
 
 kRestart = keyboard_check_pressed(ord("R"));
 kExit    = keyboard_check_pressed(vk_escape);
-kPrev    = keyboard_check_pressed(vk_subtract);
-kNext    = keyboard_check_pressed(vk_add);
+kPrev    = debug && keyboard_check_pressed(vk_subtract);
+kNext    = debug && keyboard_check_pressed(vk_add);
+kGun     = debug && keyboard_check_pressed(ord("O"));
 
 if (kRestart)
     room_restart();
@@ -38,7 +41,7 @@ if (keyboard_check_pressed(ord("P"))) {
 
 
 // Create new blocks
-if (mouse_check_button(mb_left)) {
+if (debug && mouse_check_button(mb_left)) {
 	var xx = floor(mouse_x / 16) * 16, yy = floor(mouse_y / 16) * 16;
 	var collision = collision_point(xx, yy, oParSolid, false, true);
 	if (!collision) {
@@ -46,7 +49,7 @@ if (mouse_check_button(mb_left)) {
 	}
 }
 
-if (keyboard_check_pressed(ord("O"))) {
+if (kGun) {
 	hasGun = !hasGun;
 }
 

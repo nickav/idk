@@ -4,7 +4,7 @@ var vx = camera_get_view_x(view_camera[0]);
 var vy = camera_get_view_y(view_camera[0]);
 
 draw_set_color(c_white);
-draw_text(16, 16, string(room_get_name(room)));
+//draw_text(16, 16, string(room_get_name(room)));
 
 if (instance_exists(oTouchCompatible)) {
     draw_sprite(sLeftArrow, 0, __view_get( e__VW.XView, 0 ) + 16, __view_get( e__VW.YView, 0 ) + 280);
