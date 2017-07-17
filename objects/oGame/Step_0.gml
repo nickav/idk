@@ -1,33 +1,37 @@
 // Input variables for debug room traversal
-var kRestart, kExit, kPrev, kNext, kGun;
-
-var debug = true;
+var kRestart, kExit, kPrev, kNext;
 
 kRestart = keyboard_check_pressed(ord("R"));
 kExit    = keyboard_check_pressed(vk_escape);
-kPrev    = debug && keyboard_check_pressed(vk_subtract);
-kNext    = debug && keyboard_check_pressed(vk_add);
-kGun     = debug && keyboard_check_pressed(ord("O"));
+kPrev    = keyboard_check_pressed(vk_subtract);
+kNext    = keyboard_check_pressed(vk_add);
 
+// Built-in controls
 if (kRestart)
     room_restart();
 if (kExit)
     game_end();
 
+// Core logic
+if (!instance_exists(oPlayer) && !restart) {
+	restart = true;
+	alarm[0] = 10;
+}
+
+/* */
+// Debug mode //////////////////////////////////////////
+if (!debug) return;
+
 // Iterate through rooms backward
 if (kPrev) {
-    if (room == room_first)
-        room_goto(room_last);
-    else
-        room_goto_previous();
+    if (room == room_first) room_goto(room_last);
+    else room_goto_previous();
 }
 
 // Iterate through rooms forwards
 if (kNext) {
-    if (room == room_last)
-        room_goto(room_first);
-    else
-        room_goto_next();
+    if (room == room_last) room_goto(room_first);
+    else room_goto_next();
 }
 
 // Toggle touch controls
@@ -41,7 +45,7 @@ if (keyboard_check_pressed(ord("P"))) {
 
 
 // Create new blocks
-if (debug && mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_left)) {
 	var xx = floor(mouse_x / 16) * 16, yy = floor(mouse_y / 16) * 16;
 	var collision = collision_point(xx, yy, oParSolid, false, true);
 	if (!collision) {
@@ -49,12 +53,7 @@ if (debug && mouse_check_button(mb_left)) {
 	}
 }
 
-if (kGun) {
+// Toggle gun
+if (keyboard_check_pressed(ord("O"))) {
 	hasGun = !hasGun;
-}
-
-
-if (!instance_exists(oPlayer) && !restart) {
-	restart = true;
-	alarm[0] = 10;
 }

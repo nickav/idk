@@ -4,8 +4,8 @@ window_center();
 // restart logic
 restart = false;
 hasGun = false;
-prevRoom = -1;
 prevTarget = 0;
+debug = !code_is_compiled();
 
 // mute
 audio_master_gain(0.15);

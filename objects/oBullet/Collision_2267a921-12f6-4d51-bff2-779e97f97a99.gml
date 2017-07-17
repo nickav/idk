@@ -1,4 +1,4 @@
-if (parent != other) {
-	instance_destroy(other);
-	instance_destroy();
-}
+if (other == parent) return;
+
+instance_destroy(other);
+instance_destroy();

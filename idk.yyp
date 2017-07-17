@@ -267,25 +267,6 @@
             }
         },
         {
-            "Key": "0ef3fb9e-4a20-4eb2-aeb4-48c0ba2fc8ec",
-            "Value": {
-                "id": "3cc89601-d950-4d97-87cb-a59a850e25a8",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/sSwordSlash\/sSwordSlash.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "121173d8-a5b7-4d8e-bcd4-03af9de1161b",
             "Value": {
                 "id": "748542c7-bdf6-4b8f-92dc-022ca105ed1e",
@@ -511,25 +492,6 @@
                 ],
                 "resourcePath": "sounds\/sndExplodeSmall\/sndExplodeSmall.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "1f9a1307-202a-425a-9f01-48a2956db620",
-            "Value": {
-                "id": "a6bc28b3-fc33-4d5d-9a57-cba5e1d2d655",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/oSwordSlash\/oSwordSlash.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1575,6 +1537,25 @@
                 ],
                 "resourcePath": "objects\/oBulletDestructible\/oBulletDestructible.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "753bbfc7-660a-4cdd-9e24-453734365f45",
+            "Value": {
+                "id": "4d894823-d3d0-4856-a928-8ef553bc2794",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/753bbfc7-660a-4cdd-9e24-453734365f45.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

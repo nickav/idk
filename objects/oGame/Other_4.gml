@@ -14,8 +14,3 @@ if (prevTarget == -2 && instance_exists(oTeleportPad)) {
 		oCratePoof.y = oPlayer.y;
 	}
 }
-
-// ignore restarts
-if (prevRoom != room) {
-	prevRoom = room;
-}

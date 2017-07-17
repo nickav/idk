@@ -1,0 +1,1 @@
+if (oGame.hasGun) instance_destroy();
