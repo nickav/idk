@@ -46,6 +46,10 @@ if (mouse_check_button(mb_left)) {
 	}
 }
 
+if (keyboard_check_pressed(ord("O"))) {
+	hasGun = !hasGun;
+}
+
 
 if (!instance_exists(oPlayer) && !restart) {
 	restart = true;

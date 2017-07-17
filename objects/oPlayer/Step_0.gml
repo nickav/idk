@@ -202,16 +202,17 @@ if (sprite_index == sPlayerJab && round(image_index) > 0) {
 }
 
 // Shoot
-if (false && sprite_index == sPlayerJab && round(image_index) == 1) {
+if (oGame.hasGun && sprite_index == sPlayerJab && round(image_index) == 1) {
 	with (instance_create(x, y, oBullet)) {
 		direction = other.facing > 0 ? 0 : 180;
 		speed += abs(other.vx);
 		parent = other;
 	}
+	vx -= facing * 3;
 }
 
 // Teleport
-if (kDown && instance_place(x, y + 1, oTeleportPad)) {
+if (kDown && (instance_place(x, y + 1, oTeleportPad) ||  instance_place(x, y + 1, oTeleportPadPrev))) {
 	if (!instance_exists(oTeleport)) {
 		if (blink < 20) {
 			blink += 1;

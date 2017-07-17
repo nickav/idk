@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "166bc56c-30e7-455e-b1c9-f3f134932beb",
+            "Value": {
+                "id": "901cb2d8-9372-4f26-87d0-ddd796e0088f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rmLearnGun\/rmLearnGun.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1846e4dd-2701-4bb5-9de1-edccbb45a30e",
             "Value": {
                 "id": "fb3f6dd3-bee4-41cb-a2f1-de844311c35a",
@@ -1155,7 +1174,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rmTurretHell\/rmTurretHell.yy",
+                "resourcePath": "rooms\/rmFloorIsLava\/rmFloorIsLava.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3513,6 +3532,25 @@
                 ],
                 "resourcePath": "views\/efd56f32-1edc-4baa-8baf-0d66e1d6eb42.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f02b8fbc-8914-4c45-bab0-8cefeabb8e98",
+            "Value": {
+                "id": "ba93b983-c98f-4c63-99f9-184b97ddb7a7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oGunPickup\/oGunPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {

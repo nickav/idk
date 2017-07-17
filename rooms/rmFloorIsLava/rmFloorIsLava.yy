@@ -2,14 +2,13 @@
     "id": "506b52bf-515e-4937-88d0-0f80caa2dba9",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "rmTurretHell",
+    "name": "rmFloorIsLava",
     "IsDnD": false,
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "b6de2ab3-0f63-49da-8f29-b1f04dbb0c00",
         "348d7363-d811-4c71-99a2-449f4c4f72bd",
         "ee13271d-6f33-46d5-8ae1-7cc44cee94bb",
         "d9475ff2-6ed2-4286-8706-f5a19f7eea6c",
@@ -116,30 +115,7 @@
             "userdefined_depth": true,
             "visible": true,
             "instances": [
-                {
-                    "id": "b6de2ab3-0f63-49da-8f29-b1f04dbb0c00",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_1092D361",
-                    "x": 0,
-                    "y": 0,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_1092D361",
-                    "objId": "5432b2a3-fa48-42b1-b350-38fb680202b7",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                }
+                
             ]
         },
         {
