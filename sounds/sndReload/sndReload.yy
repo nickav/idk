@@ -1,8 +1,8 @@
 {
-    "id": "7bf1d8f9-300b-4325-9e1d-262f2ee7142b",
+    "id": "44d9ccde-e0fd-492a-a092-cd652bc16644",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sndTeleport",
+    "name": "sndReload",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

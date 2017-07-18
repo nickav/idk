@@ -18,7 +18,6 @@ if (!instance_exists(oPlayer) && !instance_exists(oPlayerSpawner) && !restart) {
 	alarm[0] = 10;
 }
 
-
 /* */
 // Debug mode //////////////////////////////////////////
 if (!debug) return;

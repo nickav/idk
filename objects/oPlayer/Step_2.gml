@@ -19,10 +19,7 @@ if (platformTarget) {
     if (!onGround)
         landed = true;
     
-    if (landed)
-        with (platformTarget) other.vy = 0;
-    else
-        with (platformTarget) other.vy = 0;
+    vy = 0;
 }
 
 repeat(abs(vx)) {
@@ -30,30 +27,7 @@ repeat(abs(vx)) {
         y -= 1;
          
     if (place_meeting(x + sign(vx), y + 2, oParSolid) && !place_meeting(x + sign(vx), y + 1, oParSolid))
-        y += 1;
-      
-    // Push block //
-    if (place_meeting(x + sign(vx), y, oPushBlock)) {
-        // Push slowly
-        vx = clamp(vx, -1, 1);
-            
-        with (instance_place(x + sign(vx), y, oPushBlock)) {
-            // UP slope
-            if (place_meeting(x + sign(other.vx), y, oParSolid) && !place_meeting(x + sign(other.vx), y - 1, oParSolid))
-                --y;
-            
-            // DOWN slope
-            if (!place_meeting(x + sign(other.vx), y, oParSolid) && !place_meeting(x + sign(other.vx), y + 1, oParSolid) && place_meeting(x + sign(other.vx), y + 2, oParSolid))
-                ++y;        
-
-            if (!place_meeting(x + sign(other.vx), y, oParSolid))
-                x += sign(other.vx); 
-            else {
-                other.h = 0;
-                break;
-            }        
-        }
-    } // End push block //          
+        y += 1;       
           
     if (!place_meeting(x + sign(vx), y, oParSolid))
         x += sign(vx);

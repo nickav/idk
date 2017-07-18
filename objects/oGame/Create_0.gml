@@ -17,3 +17,5 @@ log = 0;
 
 // mute
 audio_master_gain(0.15);
+
+audio_play_sound(sndGong, 0, 0);
