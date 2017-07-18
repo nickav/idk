@@ -5,6 +5,7 @@ window_center();
 deaths = 0;
 startTime = current_time;
 hasGun = false;
+furthestRoom = -1;
 
 // restart logic
 restart = false;

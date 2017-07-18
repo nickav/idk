@@ -2395,6 +2395,25 @@
             }
         },
         {
+            "Key": "ab8421be-eff9-4db2-9f60-1e3c58fc4429",
+            "Value": {
+                "id": "1ffbce8a-dda7-4b3e-a5c7-0ff6d07c5705",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/ShootBullet\/ShootBullet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "acad8c35-182e-4ce3-9789-a02a5266b04b",
             "Value": {
                 "id": "9306e7f8-8a19-4e2e-ad4d-14ececbddf8f",
@@ -3819,7 +3838,8 @@
         "f12a4a5e-5d24-4584-9298-e6347a01ae6c",
         "be0e4644-8dd0-4e94-84c7-d24b2c38454d",
         "4106649b-5b9c-4ce4-8274-68382012edd6",
-        "7bf2ac83-8b4e-4d80-8e2c-7ee501aa2daf"
+        "7bf2ac83-8b4e-4d80-8e2c-7ee501aa2daf",
+        "ab8421be-eff9-4db2-9f60-1e3c58fc4429"
     ],
     "tutorial": ""
 }

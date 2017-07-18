@@ -199,11 +199,12 @@ if (attacking && attackIndex > 1) {
 
 // Shoot
 if (oGame.hasGun && attacking && attackIndex mod 2 == 0) {
-	with (instance_create(x, y, oBullet)) {
+	// fire bullet
+	with (ShootBullet(x, y, oBullet)) {
 		direction = other.facing > 0 ? 0 : 180;
 		speed += abs(other.vx);
-		parent = other;
 	}
+	// knockback
 	vx -= facing * 3;
 }
 
