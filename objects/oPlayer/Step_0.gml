@@ -199,9 +199,11 @@ if (attacking && attackIndex > 1) {
 
 // Shoot
 if (oGame.hasGun && attacking && attackIndex mod 2 == 0) {
+
 	// fire bullet
+	var dir = facing > 0 ? 0 : 180;
 	with (ShootBullet(x, y, oBullet)) {
-		direction = other.facing > 0 ? 0 : 180;
+		direction = dir;
 		speed += abs(other.vx);
 	}
 	// knockback
