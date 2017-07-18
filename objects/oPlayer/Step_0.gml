@@ -167,8 +167,8 @@ else if (cLeft && !onGround && kLeft)
     facing = 1;
 
 // Action
-attackIndex = Approach(attackIndex, attackTime, 1);
-if (kAction && !attacking) {
+attackIndex = Approach(attackIndex, attackTime + attackDelay, 1);
+if (kAction && !attacking && attackIndex >= attackTime + attackDelay) {
     // Jab in place
 	attackIndex = 0;
 }

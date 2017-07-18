@@ -44,6 +44,7 @@ yscale = 1;
 
 attacking = false; // computed
 attackTime = 6;
+attackDelay = 4;
 attackIndex = attackTime;
 
 alarm[1] = 1;
