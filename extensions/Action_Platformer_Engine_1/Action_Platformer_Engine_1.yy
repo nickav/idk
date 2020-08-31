@@ -1,7 +1,7 @@
 {
     "id": "55a292a7-8e45-46af-856e-4590c3457f86",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Action_Platformer_Engine_1",
     "IncludedResources": [
         "Sprites\\Player\\sPlayerMask",
@@ -111,6 +111,7 @@
     "copyToTargets": -1,
     "date": "2017-38-13 09:07:13",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -125,13 +126,29 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.ZackBellGames.ActionPlatformer1",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": -1,
+    "tvosProps": false,
+    "tvosSystemFrameworkEntries": [
+        
+    ],
+    "tvosThirdPartyFrameworkEntries": [
+        
+    ],
+    "tvosclassname": null,
+    "tvosdelegatename": null,
+    "tvosmaccompilerflags": null,
+    "tvosmaclinkerflags": null,
+    "tvosplistinject": null,
     "version": "1.1.1"
 }

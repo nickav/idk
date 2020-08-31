@@ -3,8 +3,8 @@ var kRestart, kExit, kPrev, kNext;
 
 kRestart = keyboard_check_pressed(ord("R"));
 kExit    = keyboard_check_pressed(vk_escape);
-kPrev    = keyboard_check_pressed(vk_subtract);
-kNext    = keyboard_check_pressed(vk_add);
+kPrev    = keyboard_check_pressed(vk_subtract) || keyboard_check_pressed(vk_f7);
+kNext    = keyboard_check_pressed(vk_add) || keyboard_check_pressed(vk_f8);
 
 // Built-in controls
 if (kRestart)

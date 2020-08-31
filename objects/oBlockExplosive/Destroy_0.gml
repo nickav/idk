@@ -8,7 +8,7 @@ while (visit < array_length_1d(explosions)) {
 	var node = explosions[visit];
 	visit += 1;
 
-	var collisions = collision_rectangle_list(node.x - 16, node.y - 16, node.x + 32 - 1, node.y + 32 - 1, oBlockExplosive, 0, 1);
+	var collisions = _collision_rectangle_list(node.x - 16, node.y - 16, node.x + 32 - 1, node.y + 32 - 1, oBlockExplosive, 0, 1);
 	for (var i = 0; i < ds_list_size(collisions); i++) {
 		var inst = collisions[| i];
 		if (!array_includes(explosions, inst)) {
